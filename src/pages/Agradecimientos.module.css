@@ -1,0 +1,81 @@
+.graciasPorUtilizar {
+  position: absolute;
+  top: 110px;
+  left: 109px;
+}
+.agradecemosTuTiempo {
+  margin: 0;
+}
+.agradecemosTuTiempoContainer {
+  position: absolute;
+  top: 269px;
+  left: 109px;
+  font-size: var(--font-size-13xl);
+  display: inline-block;
+  width: 611px;
+  height: 160px;
+}
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-41xl);
+  border: 8px solid var(--color-white);
+  box-sizing: border-box;
+  width: 370px;
+  height: 102px;
+}
+.arrowRight27246501Icon {
+  position: absolute;
+  top: 20px;
+  left: 24px;
+  width: 55.4px;
+  height: 60px;
+  overflow: hidden;
+}
+.volverAlInicio {
+  position: absolute;
+  top: 30px;
+  left: 94px;
+  font-size: var(--font-size-13xl);
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+}
+.rectangleParent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 552px;
+  left: 109px;
+  width: 370px;
+  height: 102px;
+}
+.partyPopper1Icon {
+  position: absolute;
+  top: 232px;
+  left: 790px;
+  width: 448px;
+  height: 422px;
+  overflow: hidden;
+}
+.agradecimientos {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-black);
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+  height: 1026px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-41xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1200px) {
+  .rectangleParent {
+    width: 400px;
+  }
+}

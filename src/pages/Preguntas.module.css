@@ -1,0 +1,115 @@
+.pregunta1 {
+  position: absolute;
+  top: 96px;
+  left: 291px;
+  font-size: var(--font-size-41xl);
+}
+.preguntaAqui,
+.repuesta1 {
+  position: absolute;
+  top: 209px;
+  left: 291px;
+}
+.repuesta1 {
+  top: 31px;
+  left: 337px;
+}
+.repuesta1Wrapper,
+.repuesta2Wrapper,
+.repuesta3Wrapper,
+.repuesta4Wrapper {
+  position: absolute;
+  top: 295px;
+  left: 294px;
+  border-radius: var(--br-11xl);
+  border: 8px solid var(--color-white);
+  box-sizing: border-box;
+  width: 844px;
+  height: 102px;
+}
+.repuesta2Wrapper,
+.repuesta3Wrapper,
+.repuesta4Wrapper {
+  top: 421px;
+}
+.repuesta3Wrapper,
+.repuesta4Wrapper {
+  top: 547px;
+}
+.repuesta4Wrapper {
+  top: 673px;
+}
+.regresar {
+  position: absolute;
+  top: 30px;
+  left: 392px;
+  font-size: var(--font-size-13xl);
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+}
+.arrowRight27246502Icon {
+  position: absolute;
+  top: 20px;
+  left: 26px;
+  width: 55.4px;
+  height: 60px;
+  overflow: hidden;
+  object-fit: contain;
+}
+.regresarParent {
+  cursor: pointer;
+  border: 8px solid var(--color-white);
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 822px;
+  left: 298px;
+  border-radius: var(--br-41xl);
+  box-sizing: border-box;
+  width: 260px;
+  height: 102px;
+}
+.arrowRight27246501Icon {
+  position: absolute;
+  top: 20px;
+  left: 24px;
+  width: 55.4px;
+  height: 60px;
+  overflow: hidden;
+}
+.siguiente {
+  position: absolute;
+  top: 30px;
+  left: 958px;
+  font-size: var(--font-size-13xl);
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+}
+.arrowRight27246501Parent {
+  cursor: pointer;
+  border: 8px solid var(--color-white);
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 822px;
+  left: 864px;
+  border-radius: var(--br-41xl);
+  box-sizing: border-box;
+  width: 278px;
+  height: 102px;
+}
+.preguntas {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-black);
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+  height: 1026px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}

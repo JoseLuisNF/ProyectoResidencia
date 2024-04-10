@@ -1,0 +1,13 @@
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 448px;
+  height: 445px;
+  object-fit: cover;
+}
+.groupParent {
+  width: 100%;
+  position: relative;
+  height: 445px;
+}

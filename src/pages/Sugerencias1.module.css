@@ -1,0 +1,115 @@
+.modificar {
+  position: absolute;
+  top: 67px;
+  left: 68px;
+  font-size: var(--font-size-41xl);
+}
+.seleccionaUnTipo {
+  position: absolute;
+  top: 189px;
+  left: 68px;
+  display: inline-block;
+  width: 847px;
+}
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-41xl);
+  border: 8px solid var(--color-white);
+  box-sizing: border-box;
+  width: 278px;
+  height: 102px;
+}
+.arrowRight27246501Icon {
+  position: absolute;
+  top: 20px;
+  left: 24px;
+  width: 55.4px;
+  height: 60px;
+  overflow: hidden;
+}
+.siguiente {
+  position: absolute;
+  top: 30px;
+  left: 94px;
+}
+.groupItem,
+.rectangleParent {
+  position: absolute;
+  top: 597px;
+  left: 610px;
+  width: 278px;
+  height: 102px;
+}
+.groupItem {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-41xl);
+  border: 8px solid var(--color-white);
+  box-sizing: border-box;
+  width: 260px;
+}
+.arrowRight27246502Icon {
+  position: absolute;
+  top: 20px;
+  left: 26px;
+  width: 55.4px;
+  height: 60px;
+  overflow: hidden;
+  object-fit: contain;
+}
+.rectangleGroup {
+  position: absolute;
+  top: 597px;
+  left: 66px;
+  width: 260px;
+  height: 102px;
+}
+.hello21656931Icon,
+.listen94774391Icon,
+.witness22103171Icon {
+  position: absolute;
+  top: 329px;
+  left: 415px;
+  width: 147px;
+  height: 159px;
+  overflow: hidden;
+}
+.hello21656931Icon,
+.witness22103171Icon {
+  left: 115px;
+  width: 167px;
+}
+.witness22103171Icon {
+  left: 677px;
+  width: 176px;
+}
+.auditivo,
+.kinestesico,
+.visual {
+  position: absolute;
+  top: 500px;
+  left: 103px;
+}
+.auditivo,
+.visual {
+  left: 415px;
+}
+.visual {
+  top: 492px;
+  left: 716px;
+}
+.sugerencias {
+  width: 100%;
+  position: relative;
+  background-color: #090f3f;
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+  height: 741px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}

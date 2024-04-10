@@ -1,0 +1,111 @@
+.sugerencias1 {
+  position: absolute;
+  top: 96px;
+  left: 291px;
+}
+.enBaseA {
+  margin: 0;
+}
+.enBaseAContainer,
+.sugerenciasChild,
+.sugerenciasItem {
+  position: absolute;
+  top: 209px;
+  left: 291px;
+  font-size: var(--font-size-13xl);
+}
+.sugerenciasChild,
+.sugerenciasItem {
+  border: 8px solid var(--color-white);
+  outline: 0;
+  display: block;
+  font-family: var(--font-inter);
+  background-color: transparent;
+  top: 327px;
+  border-radius: var(--br-11xl);
+  box-sizing: border-box;
+  width: 844px;
+  height: 204px;
+  padding: var(--padding-12xl) var(--padding-315xl) 134px;
+  font-weight: 700;
+  color: var(--color-white);
+}
+.sugerenciasItem {
+  top: 568px;
+  left: 294px;
+  height: 207px;
+  padding: 37px var(--padding-315xl) 91px;
+}
+.arrowRight27246501Icon {
+  position: absolute;
+  top: 20px;
+  left: 24px;
+  width: 55.4px;
+  height: 60px;
+  overflow: hidden;
+}
+.siguiente {
+  position: absolute;
+  top: 30px;
+  left: 958px;
+  font-size: var(--font-size-13xl);
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+}
+.arrowRight27246501Parent {
+  cursor: pointer;
+  border: 8px solid var(--color-white);
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 822px;
+  left: 864px;
+  border-radius: var(--br-41xl);
+  box-sizing: border-box;
+  width: 278px;
+  height: 102px;
+}
+.ajustar {
+  position: absolute;
+  top: 32px;
+  left: 399px;
+  font-size: var(--font-size-13xl);
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+}
+.ajustarWrapper {
+  cursor: pointer;
+  border: 8px solid var(--color-white);
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 822px;
+  left: 296px;
+  border-radius: var(--br-41xl);
+  box-sizing: border-box;
+  width: 260px;
+  height: 102px;
+}
+.setting1Icon {
+  position: absolute;
+  top: 842px;
+  left: 334px;
+  width: 55px;
+  height: 60px;
+  overflow: hidden;
+}
+.sugerencias {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-black);
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+  height: 1026px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-41xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}

@@ -1,0 +1,135 @@
+.datosDeUsuario {
+  position: absolute;
+  top: 96px;
+  left: 291px;
+}
+.porMotivosDe {
+  margin: 0;
+}
+.porMotivosDeContainer {
+  position: absolute;
+  top: 209px;
+  left: 298px;
+  font-size: var(--font-size-13xl);
+}
+.frameInput,
+.informacionChild,
+.informacionInner,
+.informacionItem {
+  border: 8px solid var(--color-white);
+  outline: 0;
+  display: block;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-13xl);
+  background-color: transparent;
+  position: absolute;
+  top: 327px;
+  left: 298px;
+  box-sizing: border-box;
+  width: 844px;
+  height: 102px;
+  padding: var(--padding-12xl) var(--padding-371xl) var(--padding-13xl);
+  font-weight: 700;
+  color: var(--color-white);
+}
+.frameInput,
+.informacionInner,
+.informacionItem {
+  top: 465px;
+}
+.frameInput,
+.informacionInner {
+  top: 603px;
+  width: 366px;
+  padding: var(--padding-12xl) 395px var(--padding-13xl);
+}
+.frameInput {
+  left: 773px;
+  width: 369px;
+  padding: var(--padding-12xl) 92px var(--padding-13xl);
+}
+.calendar552811Icon {
+  position: absolute;
+  top: 629px;
+  left: 325px;
+  width: 51px;
+  height: 50px;
+  overflow: hidden;
+}
+.omitir {
+  position: absolute;
+  top: 30px;
+  left: 392px;
+  font-size: var(--font-size-13xl);
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+}
+.omitirWrapper {
+  cursor: pointer;
+  border: 8px solid var(--color-white);
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 747px;
+  left: 298px;
+  border-radius: var(--br-41xl);
+  box-sizing: border-box;
+  width: 240px;
+  height: 102px;
+}
+.arrowRight27246501Icon {
+  position: absolute;
+  top: 20px;
+  left: 24px;
+  width: 55.4px;
+  height: 60px;
+  overflow: hidden;
+}
+.siguiente {
+  position: absolute;
+  top: 30px;
+  left: 958px;
+  font-size: var(--font-size-13xl);
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+}
+.arrowRight27246501Parent {
+  cursor: pointer;
+  border: 8px solid var(--color-white);
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 747px;
+  left: 864px;
+  border-radius: var(--br-41xl);
+  box-sizing: border-box;
+  width: 278px;
+  height: 102px;
+}
+.groupIcon {
+  position: absolute;
+  height: 5.86%;
+  width: 3.85%;
+  top: 80.86%;
+  right: 73.65%;
+  bottom: 13.28%;
+  left: 22.5%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.informacion {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-black);
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+  height: 1026px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-41xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
