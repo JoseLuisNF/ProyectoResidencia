@@ -1,6 +1,14 @@
+import { useCallback } from "react";
+import { useNavigate } from "react-router-dom";
 import styles from "./Inicio.module.css";
 
 const Inicio = () => {
+  const navigate = useNavigate();
+
+  const onFrameButtonClick = useCallback(() => {
+    navigate("/informacion");
+  }, [navigate]);
+
   return (
     <div className={styles.inicio}>
       <div className={styles.frameParent}>
@@ -25,7 +33,12 @@ const Inicio = () => {
           >{`una encuesta que te ayudará a reforzar tus `}</p>
           <p className={styles.estaPginaWeb}>hábitos de estudio.</p>
         </b>
-        <button className={styles.arrowRight27246501Parent} autoFocus={true}>
+        <button
+          className={styles.arrowRight27246501Parent}
+          autoFocus={true}
+          id="BottonInicioE"
+          onClick={onFrameButtonClick}
+        >
           <img
             className={styles.arrowRight27246501Icon}
             alt=""

@@ -16,10 +16,10 @@ body {
   --color-white: #fff;
 
   /* Paddings */
+  --padding-315xl: 334px;
   --padding-12xl: 31px;
   --padding-13xl: 32px;
   --padding-371xl: 390px;
-  --padding-315xl: 334px;
 
   /* Border radiuses */
   --br-41xl: 60px;

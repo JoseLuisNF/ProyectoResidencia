@@ -7,11 +7,11 @@ import {
 } from "react-router-dom";
 import Inicio from "./pages/Inicio";
 import Agradecimientos from "./pages/Agradecimientos";
-import Informacion from "./pages/Informacion";
 import Preguntas from "./pages/Preguntas";
 import Sugerencias from "./pages/Sugerencias";
 import Sugerencias1 from "./pages/Sugerencias1";
 import Group from "./pages/Group";
+import Informacion from "./pages/Informacion";
 
 function App() {
   const action = useNavigationType();
@@ -37,10 +37,6 @@ function App() {
         title = "";
         metaDescription = "";
         break;
-      case "/informacion":
-        title = "";
-        metaDescription = "";
-        break;
       case "/preguntas":
         title = "";
         metaDescription = "";
@@ -54,6 +50,10 @@ function App() {
         metaDescription = "";
         break;
       case "/group-3":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/informacion":
         title = "";
         metaDescription = "";
         break;
@@ -77,11 +77,11 @@ function App() {
     <Routes>
       <Route path="/" element={<Inicio />} />
       <Route path="/agradecimientos" element={<Agradecimientos />} />
-      <Route path="/informacion" element={<Informacion />} />
       <Route path="/preguntas" element={<Preguntas />} />
       <Route path="/sugerencias" element={<Sugerencias />} />
       <Route path="/sugerencias1" element={<Sugerencias1 />} />
       <Route path="/group-3" element={<Group />} />
+      <Route path="/informacion" element={<Informacion />} />
     </Routes>
   );
 }
